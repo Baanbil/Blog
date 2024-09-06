@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: tahoma;
+}
+.slides{
+  border: 2px solid white;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px blue;
+  
+  animation: 15s fadeIn forwards;
+}
+@keyframes fadeIn{
+  from{ opacity: 0}
+  to { opacity: 1 }
+}
+.slide img{
+  width: 100%; 
+  border-radius: 10px;
+}
+#slider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+nav a:hover{
+  color: pink;
+}
